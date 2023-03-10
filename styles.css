@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+button{
+    margin: 20px;
+    font-size: large;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #444444;
+    color: white;
+}
+button:hover{
+    box-shadow: 0 0 5px 2px black;
+}
+.hidden{
+    display: none;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+div img{
+    width: 300px;
+}

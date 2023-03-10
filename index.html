@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Festivals</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <h1>Choose your favorite festival!</h1>
+        <div>
+            <button onclick="easter()">Easter</button>
+            <button onclick="halloween()">Halloween</button>
+            <button onclick="christmas()">Christmas</button>
+        </div>
+        <div>
+            <button onclick="hideEaster()">Hide Easter</button>
+            <button onclick="hideHalloween()">Hide Halloween</button>
+            <button onclick="hideChristmas()">Hide Christmas</button>
+        </div>
+        <div class="hidden" id="easter">
+            <img src="./image/easter.jpg" alt="">
+            <h2>Easter</h2>
+            <p>Easter, also called Pascha or Resurrection Sunday, is a Christian festival and cultural holiday commemorating the resurrection of Jesus from the dead, described in the New Testament as having occurred on the third day of his burial following his crucifixion by the Romans at Calvary c. 30 AD.</p>
+        </div>
+        <div class="hidden" id="halloween">
+            <img src="./image/halloween.jpg" alt="">
+            <h2>Halloween</h2>
+            <p>Halloween or Hallowe'en is a celebration observed in many countries on 31 October, the eve of the Western Christian feast of All Saints' Day. It begins the observance of Allhallowtide, the time in the liturgical year dedicated to remembering the dead, including saints, martyrs, and all the faithful departed.</p>
+        </div>
+        <div class="hidden" id="christmas">
+            <img src="./image/christmas.jpg" alt="">
+            <h2>Christmas</h2>
+            <p>Christmas is an annual festival commemorating the birth of Jesus Christ, observed primarily on December 25 as a religious and cultural celebration among billions of people around the world.</p>
+        </div>
+        
+        <script src="./index.js" defer></script>
+    </body>
+</html>
